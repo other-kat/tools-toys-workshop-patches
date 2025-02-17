@@ -46,7 +46,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 988.0, 178.5, 250.0, 33.0 ],
-					"presentation_linecount" : 3,
 					"text" : "make sure to check the helpfiles but have a play using the float tools to cut your sample"
 				}
 
@@ -59,7 +58,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 761.0, 178.5, 220.0, 33.0 ],
-					"presentation_linecount" : 2,
 					"text" : "3. you now have a basic sampling tool! (floats are in ms)"
 				}
 
@@ -71,8 +69,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 537.5, 178.5, 219.0, 33.0 ],
-					"presentation_linecount" : 4,
+					"patching_rect" : [ 537.5, 178.5, 220.0, 33.0 ],
 					"text" : "2. add two \"float\"s and connect them to the second and third \"groove~\" inputs"
 				}
 
@@ -85,7 +82,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 333.0, 178.0, 204.0, 33.0 ],
-					"presentation_linecount" : 3,
 					"text" : "1. add a \"loop 1\" message and \"0\" message and connect to \"groove~\""
 				}
 
@@ -98,7 +94,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 970.0, 119.5, 294.5, 47.0 ],
-					"presentation_linecount" : 4,
 					"text" : "4. connect your \"groove~\" to the pre-written \"gain~\", click \"replace\" add your sample, \"1\" should start playback"
 				}
 
@@ -110,7 +105,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 832.0, 126.5, 136.0, 33.0 ],
+					"patching_rect" : [ 832.0, 126.5, 138.0, 33.0 ],
 					"text" : "3. connect the \"replace\" to the \"buffer~\""
 				}
 
@@ -122,8 +117,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 487.5, 119.5, 341.0, 47.0 ],
-					"presentation_linecount" : 8,
+					"patching_rect" : [ 487.5, 119.5, 343.0, 47.0 ],
 					"text" : "2. create a \"replace\" message add a \"groove~\" object with argument \"sm1\" and a \"buffer~\" with the same argument, copy the \"sig~\" object and messages from the \"groove~\" helpfile"
 				}
 
@@ -135,8 +129,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 333.5, 126.5, 152.5, 33.0 ],
-					"presentation_linecount" : 2,
+					"patching_rect" : [ 333.5, 126.5, 153.0, 33.0 ],
 					"text" : "1. make a 10sec recording counting out loud"
 				}
 
@@ -149,7 +142,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 917.0, 74.5, 328.0, 33.0 ],
-					"presentation_linecount" : 4,
 					"text" : "4. connect  \"gain~\" to the first input of \"record~\", prep using the \"open\" message and \"toggle\" to start a recording"
 				}
 
@@ -161,8 +153,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 769.0, 74.5, 146.0, 33.0 ],
-					"presentation_linecount" : 2,
+					"patching_rect" : [ 769.0, 74.5, 147.0, 33.0 ],
 					"text" : "3. connect the \"number~\" to the output of \"record~\""
 				}
 
@@ -174,8 +165,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 594.0, 74.5, 173.0, 33.0 ],
-					"presentation_linecount" : 2,
+					"patching_rect" : [ 594.0, 74.5, 174.0, 33.0 ],
 					"text" : "2. connect \"toggle\" and \"open\" to the top right of \"record~\""
 				}
 
@@ -187,8 +177,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 334.0, 74.5, 256.0, 33.0 ],
-					"presentation_linecount" : 5,
+					"patching_rect" : [ 334.0, 74.5, 259.0, 33.0 ],
 					"text" : "1. add a \"sfrecord~\", \"toggle\", \"open\" message and a \"number~\" (different from a \"number\"!)"
 				}
 
@@ -201,7 +190,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 894.0, 23.5, 344.0, 33.0 ],
-					"presentation_linecount" : 2,
 					"text" : "4. connect the \"gain~\" object to the pre-written \"gain~\" object and you should now have output (be careful of feedback)"
 				}
 
@@ -214,7 +202,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 242.0, 178.0, 86.0, 33.0 ],
-					"presentation_linecount" : 2,
 					"text" : "tutorial four - messages"
 				}
 
@@ -344,7 +331,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 451.0, 23.5, 118.0, 33.0 ],
+					"patching_rect" : [ 451.0, 23.5, 119.0, 33.0 ],
 					"text" : "2. connect \"audio IN ch 1\" to the \"gain~\""
 				}
 
@@ -379,7 +366,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 334.0, 23.5, 113.0, 33.0 ],
+					"patching_rect" : [ 334.0, 23.5, 117.0, 33.0 ],
 					"text" : "1. add a \"adc~\" and a \"gain~\" object"
 				}
 
@@ -580,23 +567,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 18.0, 603.0, 197.0, 163.0 ],
-					"proportion" : 0.5
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"angle" : 270.0,
-					"border" : 1,
-					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"grad1" : [ 0.301961, 0.301961, 0.301961, 0.0 ],
-					"grad2" : [ 0.2, 0.2, 0.2, 0.0 ],
-					"id" : "obj-4",
-					"maxclass" : "panel",
-					"mode" : 1,
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 231.0, 224.0, 1024.0, 542.0 ],
 					"proportion" : 0.5
 				}
 

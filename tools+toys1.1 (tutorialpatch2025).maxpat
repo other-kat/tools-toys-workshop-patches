@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 100.0, 1274.0, 777.0 ],
+		"rect" : [ -1875.0, 169.0, 1274.0, 777.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -46,7 +46,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 1032.0, 173.0, 219.0, 33.0 ],
-					"presentation_linecount" : 4,
 					"text" : "play about with what you've made to find different combinations and effects!"
 				}
 
@@ -58,8 +57,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 894.0, 173.0, 133.0, 33.0 ],
-					"presentation_linecount" : 2,
+					"patching_rect" : [ 894.0, 173.0, 135.0, 33.0 ],
 					"text" : "9. the pitch should now scale with the counter!"
 				}
 
@@ -72,7 +70,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 706.0, 173.0, 184.0, 33.0 ],
-					"presentation_linecount" : 3,
 					"text" : "8. reconnect your \"counter\" to the \"float\" of your \"cycle~\" object"
 				}
 
@@ -84,8 +81,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 515.0, 173.0, 180.0, 33.0 ],
-					"presentation_linecount" : 2,
+					"patching_rect" : [ 515.0, 173.0, 181.0, 33.0 ],
 					"text" : "7. now change the argument on your \"counter\" to \"440 1000\""
 				}
 
@@ -98,7 +94,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 243.0, 173.0, 267.0, 33.0 ],
-					"presentation_linecount" : 2,
 					"text" : "6. turn on the \"toggle\" connected to the \"metro\" and you should now have very basic sequencer!"
 				}
 
@@ -110,8 +105,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 949.0, 133.0, 263.0, 33.0 ],
-					"presentation_linecount" : 3,
+					"patching_rect" : [ 963.0, 133.0, 264.0, 33.0 ],
 					"text" : "5. connect the \"number\" to the top of the \"on/off switch\" of the prewritten output section"
 				}
 
@@ -123,8 +117,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 752.0, 133.0, 193.0, 33.0 ],
-					"presentation_linecount" : 2,
+					"patching_rect" : [ 766.0, 133.0, 193.0, 33.0 ],
 					"text" : "4. connect the \"button\" made earlier to the \"counter\" top left slot"
 				}
 
@@ -135,7 +128,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 472.0, 139.5, 106.0, 20.0 ],
+					"patching_rect" : [ 486.0, 140.0, 106.0, 20.0 ],
 					"text" : "2. add a \"number\""
 				}
 
@@ -147,8 +140,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 579.0, 133.0, 171.0, 33.0 ],
-					"presentation_linecount" : 4,
+					"patching_rect" : [ 593.0, 133.0, 173.0, 33.0 ],
 					"text" : "3. connect the \"number\" to the bottom left of the \"counter\""
 				}
 
@@ -160,8 +152,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 329.0, 133.0, 141.0, 33.0 ],
-					"presentation_linecount" : 3,
+					"patching_rect" : [ 343.0, 133.0, 142.0, 33.0 ],
 					"text" : "1. add a \"counter\" object with the arguments \"0 1\""
 				}
 
@@ -173,8 +164,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 243.0, 133.0, 83.0, 33.0 ],
-					"presentation_linecount" : 2,
+					"patching_rect" : [ 243.0, 133.0, 86.0, 33.0 ],
 					"text" : "tutorial three - interactions"
 				}
 
@@ -215,7 +205,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 76.0, 702.0, 94.0, 47.0 ],
+					"patching_rect" : [ 76.0, 702.0, 95.0, 47.0 ],
 					"text" : "if i am glowing then your patch is 'active'"
 				}
 
@@ -228,7 +218,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 993.0, 77.5, 252.0, 33.0 ],
-					"presentation_linecount" : 2,
 					"text" : "5. lock your patcher to interact with your control objects and turn up the \"gain~\" object"
 				}
 
@@ -252,8 +241,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 733.0, 77.5, 249.0, 33.0 ],
-					"presentation_linecount" : 2,
+					"patching_rect" : [ 741.0, 77.5, 249.0, 33.0 ],
 					"text" : "4. connect bottom right of the \"cycle~\" to the \"gain~\" in the left corner of the workspace"
 				}
 
@@ -277,7 +265,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 579.0, 77.5, 150.0, 33.0 ],
+					"patching_rect" : [ 587.0, 77.5, 150.0, 33.0 ],
 					"text" : "3. connect the \"float\" to the top left of the \"cycle~\""
 				}
 
@@ -288,7 +276,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 469.0, 84.0, 106.0, 20.0 ],
+					"patching_rect" : [ 477.0, 83.5, 106.0, 20.0 ],
 					"text" : "2. add a \"float\""
 				}
 
@@ -300,8 +288,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 330.0, 77.5, 135.0, 33.0 ],
-					"presentation_linecount" : 3,
+					"patching_rect" : [ 338.0, 77.5, 137.0, 33.0 ],
 					"text" : "1. add a \"cycle~\" object with the argument 440"
 				}
 
@@ -324,8 +311,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 835.0, 30.0, 357.0, 20.0 ],
-					"presentation_linecount" : 5,
+					"patching_rect" : [ 845.0, 29.5, 357.0, 20.0 ],
 					"text" : "5. check the \"metro\" help file to see how to connect your objects!"
 				}
 
@@ -336,7 +322,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 725.0, 30.0, 106.0, 20.0 ],
+					"patching_rect" : [ 735.0, 29.5, 106.0, 20.0 ],
 					"text" : "4. add a \"button\""
 				}
 
@@ -347,8 +333,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 615.0, 30.0, 106.0, 20.0 ],
-					"presentation_linecount" : 2,
+					"patching_rect" : [ 625.0, 29.5, 106.0, 20.0 ],
 					"text" : "3. add a \"number\""
 				}
 
@@ -359,7 +344,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 515.0, 30.0, 96.0, 20.0 ],
+					"patching_rect" : [ 525.0, 29.5, 96.0, 20.0 ],
 					"text" : "2. add a \"toggle\""
 				}
 
@@ -382,8 +367,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 28.0, 304.0, 177.0, 87.0 ],
-					"presentation_linecount" : 6,
+					"patching_rect" : [ 28.0, 304.0, 178.0, 87.0 ],
 					"text" : "the best thing about max objects is that all objects hold a \"help\" file, with pre-written examples and information on what the object can do! check all the helpfiles as you go!"
 				}
 
@@ -395,7 +379,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 353.0, 23.5, 157.0, 33.0 ],
+					"patching_rect" : [ 363.0, 23.5, 158.0, 33.0 ],
 					"text" : "1. add a \"metro\" object with the argument \"500\""
 				}
 
@@ -407,8 +391,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 29.0, 236.0, 174.0, 60.0 ],
-					"presentation_linecount" : 4,
+					"patching_rect" : [ 29.0, 236.0, 177.0, 60.0 ],
 					"text" : "max is a node based coding language, with an emphasis on the interaction between different nodes."
 				}
 
@@ -437,8 +420,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 30.0, 61.0, 173.0, 141.0 ],
-					"presentation_linecount" : 10,
+					"patching_rect" : [ 30.0, 61.0, 174.0, 141.0 ],
 					"text" : "hi! welcome to a little max tutorial patcher! this is intended to teach some basics for getting started with making software in max! \ni hope this is helpful and helps you see a little bit of the fun of making music with max.\n\nlove kat"
 				}
 
@@ -451,7 +433,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 30.5, 446.0, 173.0, 141.0 ],
-					"presentation_linecount" : 10,
 					"text" : "n = object\ni = number (intiger)\nf = float\nt = toggle\nb = button\nc = comment (text box)\nm = message\ncmd + e = lock patcher\ncmd + opt + e = presentation mode"
 				}
 
@@ -598,23 +579,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 18.0, 603.0, 197.0, 163.0 ],
-					"proportion" : 0.5
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"angle" : 270.0,
-					"border" : 1,
-					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"grad1" : [ 0.301961, 0.301961, 0.301961, 0.0 ],
-					"grad2" : [ 0.2, 0.2, 0.2, 0.0 ],
-					"id" : "obj-4",
-					"maxclass" : "panel",
-					"mode" : 1,
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 231.0, 224.0, 1024.0, 542.0 ],
 					"proportion" : 0.5
 				}
 
